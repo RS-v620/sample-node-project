@@ -14,5 +14,10 @@ pipeline {
                 bat 'npm install'
             }
         }
+        stage ("Deploy") {
+            steps {
+            echo "Hello World!"
+            }
+        }
     }
 }
